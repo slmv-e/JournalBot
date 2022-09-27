@@ -7,7 +7,7 @@ driver = webdriver.Chrome()
 
 
 def get_info() -> dict:  # getting info about homework
-    homework_name = str(input("Type homework name: "))
+    homework_name = str(input("Type homework name (strictly as in api.100points.ru): "))
     while (levels_cnt := int(input("Type count of difficulty levels (1-3): "))) not in [1, 2, 3]:
         print("Type a valid value")
     students = []
