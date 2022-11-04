@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from time import sleep
 from config import login, password
 
-driver = webdriver.Chrome()
+driver = webdriver.Chrome("chromedriver.exe")
 
 
 def get_info() -> dict:  # getting info about homework
