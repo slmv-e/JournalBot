@@ -1,18 +1,19 @@
 # Setup
-1. Clone the repository
+1. Open `cmd`
+2. Clone the repository
 ````
-git clone https://github.com/slmv-e/JournalBot
+$ git clone https://github.com/slmv-e/JournalBot
 ````
-2. Go to repository folder
+3. Go to repository folder
 ````
-cd /JournalBot
+$ cd /JournalBot
 ````
-3. Install requirements
+4. Install requirements
 ````
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 ````
-4. Download chromedriver and put in into repository folder
-5. Done!
+5. Download [Chromedriver](https://chromedriver.chromium.org/downloads) and put in into repository folder
+6. Done!
 
 
 # Versions
